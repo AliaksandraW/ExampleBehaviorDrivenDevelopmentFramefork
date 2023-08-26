@@ -15,4 +15,7 @@ public class MainPage {
     public WebElement searchButton;
     @FindBy(xpath = "//div//div[@class='left-pane-results-container']")
     public WebElement autosuggestion;
+    @FindBy (xpath = "//*[@id='nav-link-accountList']/span")
+    public WebElement signInLink;
 }
+
